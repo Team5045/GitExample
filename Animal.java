@@ -1,5 +1,5 @@
 public class Animal {
-    private boolean hasTail;
+    //private boolean hasTail;
     protected String vocals;
     private int age;
 

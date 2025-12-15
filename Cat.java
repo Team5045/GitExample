@@ -6,6 +6,10 @@ public class Cat extends Animal {
         super(age, vocals);
     }
     
+    public void setVocals(String value){
+        this.vocals = value;
+    }
+
     @Override
     public void talk(){
         System.out.println("meow " + this.vocals + " meow");

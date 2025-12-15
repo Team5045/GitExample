@@ -1,11 +1,13 @@
 class Main{
     public static void main(String[] args) {
         System.out.println("Training Repo");
-        int a = 1;
+        int a = 2;
         int b = 1;
         int c = a + b;
+        int d = a + b + c;
         System.out.println("a + b = " + c);
-
+        System.out.println("a + b + c= " + d);
+      
         Animal a1 = new Animal(5, "roar");
         System.out.println(a1.getAge());
         a1.setAge(250);
@@ -14,5 +16,6 @@ class Main{
 
         a1.talk();
         c1.talk();
+        
     }
 }

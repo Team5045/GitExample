@@ -17,5 +17,7 @@ class Main{
         a1.talk();
         c1.talk();
         
+        c1.setVocals("hiss");
+        c1.talk();
     }
 }

@@ -7,5 +7,15 @@ class Main{
         int d = a + b + c;
         System.out.println("a + b = " + c);
         System.out.println("a + b + c= " + d);
+      
+        Animal a1 = new Animal(5, "roar");
+        System.out.println(a1.getAge());
+        a1.setAge(250);
+        System.out.println(a1.getAge());
+        Cat c1 = new Cat(4, "purr");
+
+        a1.talk();
+        c1.talk();
+        
     }
 }
